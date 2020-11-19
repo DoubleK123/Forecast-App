@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherForecast"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/weather_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/current_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "CurrentTemp"/>
+
+    <TextView
+        android:id="@+id/min_temp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "MinTemp"/>
+
+    <TextView
+        android:id="@+id/max_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MaxTemp"/>
+    <TextView
+        android:id = "@+id/city_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <Spinner
+        android:id = "@+id/citySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
